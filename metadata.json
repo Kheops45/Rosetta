@@ -1,0 +1,7 @@
+{
+  "name": "Hierotrad",
+  "description": "Une application moderne style glassmorphism pour décrypter les hiéroglyphes et traduire du texte.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
