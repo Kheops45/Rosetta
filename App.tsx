@@ -177,8 +177,8 @@ const App: React.FC = () => {
                     value={inputText}
                     onChange={(e) => setInputText(e.target.value)}
                     placeholder="Saisissez votre texte ici..."
-                    // Increased height from h-36 to h-64
-                    className="w-full h-64 bg-stone-50 border border-stone-200 rounded-xl p-6 text-lg text-stone-700 placeholder-stone-400 focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500/30 transition-all resize-none mb-8 font-sans shadow-inner leading-relaxed"
+                    // Increased height from h-36 to h-64, changed resize-none to resize-y
+                    className="w-full h-64 bg-stone-50 border border-stone-200 rounded-xl p-6 text-lg text-stone-700 placeholder-stone-400 focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500/30 transition-all resize-y mb-8 font-sans shadow-inner leading-relaxed"
                   />
                   <button
                     onClick={handleEncode}
